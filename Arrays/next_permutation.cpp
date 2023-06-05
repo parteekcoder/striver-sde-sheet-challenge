@@ -23,7 +23,7 @@ public:
                     minIndex = j;
                 }
             }
-            if (minIndex == -1 || minGreater <= nums[i])
+            if (minIndex == -1)
                 continue;
             swap(nums[i], nums[minIndex]);
             sort(nums.begin() + i + 1, nums.end());
