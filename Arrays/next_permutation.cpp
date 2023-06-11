@@ -3,6 +3,8 @@
 #include <vector>
 #include <limits.h>
 
+//int stl next_permutation(arr.begin(),arr.end());
+
 using namespace std;
 class Solution
 {
